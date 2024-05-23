@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+header{
+    height: 70px;
+}
+/*.email-info{
+    display: inline-block;
+    color: hsl(0, 0%, 40%);
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+.location{
+    display: inline-block;
+    color: hsl(0, 0%, 40%);
+    font-weight: lighter;
+    margin-left: 5px;
+}
+.fa-solid.fa-envelope{
+    color: orangered;
+    font-size: 1.5em;
+    margin-right: 5px;
+    margin-left: 4em;
+}
+.icon{
+    text-align: right;
+}
+.head{
+    border-bottom: 1px solid #aaa;
+}
+.fa-sharp.fa-solid.fa-map{
+    color: orangered;
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+.fa-brands.fa-facebook-f{
+    background-color: hsl(0, 0%, 80%);
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.fa-brands.fa-facebook-f:hover{
+    background-color: orangered;
+}
+.fa-brands.fa-twitter{
+    background-color: hsl(0, 0%, 80%);
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+}*/
+.button{
+    position: relative;
+    border: none;
+}
+.calender{
+    background-color: orangered;
+    padding: 11px;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    position: absolute;
+}
+.button-text{
+    margin-left: 30px;
+}
+.submit-button{
+    background-color: orangered !important;
+    color: white !important;
+}
+.state{
+    text-align: left !important;
+    top: 20% !important;
+}
+.style-location{
+    background-color: white;
+    color: black;
+    width: 175px !important;
+}
+.country{
+    color: orangered;
+}
+.accordion-button{
+    background-color: hsl(0, 0%, 90%) !important;
+}
+.accordion{
+    margin-top: 30px !important;
+}
+.tfs{
+    font-size: small;
+    color: #aaa;
+}
+.banner{
+    position: relative !important;
+}
+.image-text{
+    position: absolute !important;
+    top: 15% !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+.video-image{
+    position: absolute !important;
+    top: 60% !important;
+    right: 10% !important;
+    width: 80%;
+    height: 450px !important;
+}
+.fa-solid.fa-play{
+    color: orangered;
+    position: absolute !important;
+    background-color: white !important;
+    padding: 9px !important;
+    border-radius: 25px;
+    right: 50%;
+    top: 110%;
+}
+section{
+    margin-top: 20px;
+    height: 680px !important;
+}
+.display{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding-top: 6em !important;
+    padding-bottom: 4em !important;
+}
+.div1, .div2, .div3{
+    background-color: rgba(255, 165, 0, 0.3);
+    height: 80px;
+    width: 230px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+.num{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.num-12{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.bfn{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.circle{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    position: absolute;
+    left: 93%;
+    bottom: 65%;
+}
+.second-section{
+    background-color: #f9f9f9;
+}
+.button1, .button2, .button3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.button2, .button3{
+    background-color: black;
+    color: white;
+}
+.button-text:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.grid-container{
+    padding-bottom: 3em;
+}
+.tfs2{
+    margin-left: 20px !important;
+}
+.floor, .avail-parking{
+    margin-left: 50px;
+}
+.roomnum, .payment-process{
+    margin-left: 52px;
+}
+
+.display-image{
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+}
+.card{
+    margin-left: 3em;
+}
+.button4{
+    margin-left: 3px;
+}
+.third-section{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+.final-deal-con{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.final-deal1, .final-deal2, .final-deal3{
+    height: 600px;
+    width: 350px;
+    background-color: #f9f9f9;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.villa-details{
+    padding-top: 20px;
+}
+.price{
+    margin-left: 145px;
+    color: orangered;
+}
+.luxury-villa{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 165, 0, 0.3);
+}
+.num-bath, .num-floor{
+    margin-left: 20px;
+}
+.bed, .area, .space{
+    margin-left: 5px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.street1, .street2, .street3{
+    margin-left: 5px !important;
+}
+.luxury-villa-button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    margin: auto !important;
+    display: block;
+}
+.final-deal-con2{
+    margin-top: 2em;
+}
+.luxury-apartment{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 165, 0, 0.3);
+}
+.price2{
+    margin-left: 160px;
+    color: orangered;
+}
+.price3{
+    margin-left: 120px;
+    color: orangered;
+}
+.luxury-villa-button:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.flex-container{
+    width: 100%;
+    height: 230px;
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+.flex-box{
+    width: 300px !important;
+    height: 100px;
+    color: black;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-solid.fa-phone-volume, .fa-regular.fa-envelope, .fa-sharp.fa-solid.fa-map{
+    color: orangered;
+    margin-top: 10px;
+    font-size: 2.5em;
+    margin-left: 15px;
+}
+.email-info{
+    margin-top: 5px;
+}
+.fa-brands.fa-facebook-f{
+    background-color: hsl(0, 0%, 80%);
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center !important;
+    margin-right: 5px;
+}
+.fa-brands.fa-facebook-f:hover{
+    background-color: orangered;
+}
+.fa-brands.fa-twitter{
+    background-color: hsl(0, 0%, 80%);
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.fa-brands.fa-twitter:hover{
+    background-color: orangered;
+}
+.fa-brands.fa-linkedin-in{
+    margin-left: 5px;
+    background-color: hsl(0, 0%, 80%);
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+}
+.fa-brands.fa-linkedin-in:hover{
+    background-color: orangered;
+}
+.fa-brands.fa-instagram{
+    background-color: hsl(0, 0%, 80%);
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+}
+.fa-brands.fa-instagram:hover{
+    background-color: orangered;
+}
+.socials{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icons{
+    margin-top: 15px;
+}
+footer{
+    background-color: rgba(255, 165, 0, 0.3);
+    padding: 10px;
+    margin-top: 3em !important;
+}
+.footer-text{
+    margin-left: 80px;
+}
